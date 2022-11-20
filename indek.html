@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Tyaas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", ()=>{
+            VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        colorMode: "variance",
+        birdSize: 1.20,
+        quantity: 4.00,
+        backgroundAlpha: 0.00
+        })
+        setTimeout (()=>{
+            document.querySelector('main').style.opacity=1;
+            document.querySelector('main').style.filter=none;
+        },1000)
+        })
+    </script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+    <div class="container animate__animated animate__zoomIn">
+    <!-- profile picture -->
+    <div class="profile">
+        <img src="profile.jpg" alt="adityas">
+        <P class="animate__animated animate__fadeInDownBig"><a href="https://www.instagram.com/aditiya4891">@adityas</a></P>
+    </div>
+
+    <!-- link tree button -->
+    <div class="link">
+        <a href="https://github.com/tyaas" target="_blank"> <img src="github.png" alt="github" width="50" > Github</a>
+        <a href="https://www.blogger.com/profile/03258734331438913275" target="_blank"> <img src="blog.png" alt="blog" width="25"> Blog</a>
+        <a href="https://twitter.com/Tyaas___" target="_blank"> <img src="twitter.png" alt="twitter" width="30"> Twitter</a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <i>made with adityas</i>
+    </footer>
+    </div>
+</main>
+</body>
+</html>
