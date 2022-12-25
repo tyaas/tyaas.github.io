@@ -44,6 +44,8 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    font-family: 'Allan', cursive;
+    
 }
 
 .profile> p {
@@ -52,16 +54,24 @@ main{
     letter-spacing: 2px;
     text-transform: capitalize;
     text-align: center;
+    background-color: rgba(0,0,0,.7 );
+    border: rgba(0,0,0,0.7 );
+    border-radius: 10px;
+    box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
+-webkit-box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
 }
 
 .profile>p>a {
     text-decoration: none;
     color: white;
+    
 }
 
 .profile>p>a:hover {
-    color:black;
+    color: #FFBD00;
     transition: all .6s ease-in-out;
+    
 }
 
 .profile> img {
@@ -101,7 +111,7 @@ main{
 }
 
 .link > a:hover {
-    background-color:bisque;
+    background-color:#4A4E69;
     transition: all .6s ease-in-out;
 }
 
